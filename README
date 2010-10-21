@@ -1,0 +1,23 @@
+Textar Font ver.0.1
+
+Textar Font is a japanese propotional font,
+derived from the IPA PGothic font ver.3.02.
+It aims to represent Shift_JIS art graphics properly,
+almost all of which require the MS PGothic font.
+
+WHAT'S "textar-min.**"?
+  It includes minimal Kanji glyphs to reduce the file size.
+  specifically, the first level Kanji and the second level Kanji only
+  (http://en.wikipedia.org/wiki/JIS_X_0208).
+
+LICENSE:
+  IPA Font License Agreement v1.0
+
+HOW TO GENERATE FONTS:
+  1. Install FontForge.
+
+  2. Run the following commands.
+    $ cd src
+    $ fontforge -script textar.py
+    $ fontforge -script textar.pe
+

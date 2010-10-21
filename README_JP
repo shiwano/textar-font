@@ -1,0 +1,33 @@
+Textar Font ver.0.1
+
+Textarフォントは、IPA Pゴシックフォント ver.3.02を改変して作られた
+日本語のプロポーショナルフォントです。
+MS Pゴシックに合わせて文字幅や文字形を調整しているので、
+アスキーアートをズレずに適切に表示することができます。
+
+"textar-min.**"のファイルは何？:
+  ファイルサイズを小さくするために、
+  JIS X 0208 で定義されている第一水準漢字と第二水準漢字以外の
+  漢字グリフを切り捨てたフォントです。
+  ウェブフォントとしての使用を想定しています。
+
+ライセンス:
+  IPA Font License Agreement v1.0
+
+フォントの作り方:
+  1. FontForge をインストールしてください。
+
+  2. 以下のコマンドを実行してください。
+    $ cd src
+    $ fontforge -script textar.py
+    $ fontforge -script textar.pe
+
+woff形式のフォントについて:
+  woff形式のフォントは、FontForgeで出力するよりも、
+  ttf形式のフォントをsfnt2woffで変換した方がファイルサイズが
+  小さくなったので、配布ファイルではそのようにしています。
+
+"textar-patch.otf"について:
+  IPA Pゴシックフォント ver.3.02を改変して作ったフォントファイルですので、
+  これにも IPA Font License Agreement v1.0 が適用されます。
+
