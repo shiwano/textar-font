@@ -21,10 +21,10 @@ WHAT'S "textar-min.**"?
   specifically, the first level Kanji and the second level Kanji only
   (http://en.wikipedia.org/wiki/JIS_X_0208).
 
-ABOUT WOFF:
+ABOUT WOFF FONT:
   WOFF font was converted by sfnt2woff
   (http://people.mozilla.org/~jkew/woff/).
 
-ABOUT EOT:
+ABOUT EOT FONT:
   EOT font was converted by ttf2eot
   (http://code.google.com/p/ttf2eot/).

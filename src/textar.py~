@@ -84,7 +84,7 @@ font.em = 1000
 patch_font = fontforge.open(PATCH_FONT)
 encodings = [65392, 12540, 124, 8214, 65295, 65340, 8208, 8213, 65343, 95,
              65507, 175, 8722, 34, 39, 65282, 33, 106, 9679, 9678, 9675,
-             12295, 8721, 60, 62, 65396, 65386, 8194, 8195, 8201]
+             12295, 8721, 60, 62, 65396, 65386]
 copy_from_patch_font(font, patch_font, encodings)
 font.save(OUTPUT_FILE)
 print "Saved a SFD file. Run the 'textar.pe' script."

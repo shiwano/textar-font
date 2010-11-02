@@ -4120,8 +4120,8 @@ Generate(OUTPUT_FONT_SVG_MIN)
 Print("Generated a SVG font minified.")
 
 # Generate a WebOpenFontFormat font minified
-#Generate(OUTPUT_FONT_WOFF_MIN)
-#Print("Generated a WebOpenFontFormat font minified.")
+Generate(OUTPUT_FONT_WOFF_MIN)
+Print("Generated a WebOpenFontFormat font minified.")
 
 Print("Completed.")
 
