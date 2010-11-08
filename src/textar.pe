@@ -46,8 +46,8 @@ Generate(OUTPUT_FONT_TTF)
 Print("Generated a TrueType font.")
 
 # Generate a SVG font
-Generate(OUTPUT_FONT_SVG)
-Print("Generated a SVG font.")
+#Generate(OUTPUT_FONT_SVG)
+#Print("Generated a SVG font.")
 
 # Generate a WebOpenFontFormat font
 #Generate(OUTPUT_FONT_WOFF)
@@ -4116,8 +4116,8 @@ Generate(OUTPUT_FONT_TTF_MIN)
 Print("Generated a TrueType font minified.")
 
 # Generate a SVG font minified
-Generate(OUTPUT_FONT_SVG_MIN)
-Print("Generated a SVG font minified.")
+#Generate(OUTPUT_FONT_SVG_MIN)
+#Print("Generated a SVG font minified.")
 
 # Generate a WebOpenFontFormat font minified
 #Generate(OUTPUT_FONT_WOFF_MIN)

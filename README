@@ -1,4 +1,4 @@
-Textar Font ver.0.1
+Textar Font ver.0.11
 
 Textar Font is a japanese propotional font,
 derived from the IPA PGothic font ver.3.02.
@@ -28,3 +28,7 @@ ABOUT WOFF:
 ABOUT EOT:
   EOT font was converted by ttf2eot
   (http://code.google.com/p/ttf2eot/).
+
+ABOUT SVG:
+  SVG font was converted by ttf2svg on batik
+  (http://xmlgraphics.apache.org/batik/)
